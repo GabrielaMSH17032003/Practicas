@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""method="post">
+        <fieldset>
+            <legend>Detalles de la foto</legend>
+            <br/>Titulo<br/>
+            <input type='text' size='90*22' name='nombre' required>
+            <br/>Descripción<br/>
+            <textarea rows='6' cols='90'></textarea><br/>
+            <br/>
+            <form>
+                <div style="display:flex;">
+                  <div style="flex:1;">
+                   Continente<br/>
+                    <select name='Continente'>
+                        <option value='Escoger continente'>Escoger continente</option>
+                        <option value='Africa'>Africa</option>
+                        <option value='Asia' >Asia</option>
+                        <option value='Europa'>Europa</option>
+                        <option value='Norte América'>Norte América</option>
+                        <option value='Sur América'>Sur Ameérica</option>
+                    </select><br/>
+                    <br/>País<br/>
+                    <select name="pais">
+                        <option value="País">País</option>
+                        <option value="Canada">Canada</option>
+                        <option value="México">México</option>
+                        <option value="Estados Unidos">Estados Unidos</option>
+                    </select><br/>
+                    <br/>Ciudad<br/>
+                    <input type='datalist' size='45*22' name='Ciudad' required><br/>
+                    <br/> Acepto la licencia de software<input type='checkbox' name='sexo' value='sexomujer'><br/>
+                    <br/>Califica esta foto:<br/>
+                    <input type='number' size='5*22' name='califica' required><br/>
+                    <br/> Colección de color: <br/>
+                    <input type="color"> <br /> <br/>
+                </div>
+                <div style="flex:3;">
+                   Copyrigth?<br/>
+                    <input type='radio' name='Derechos' value='Derechos'> Todos los derechos reservados<br/>
+                    <input type='radio' name='Dere' value='Dere'> Creative Commons<br/>
+                   <br/>Licencias Creative Commons<br/>
+                    <input type='checkbox' name='atribucion' value='atribucion'> Atribución<br/>
+                    <input type='checkbox' name='nocomercial' value='nocomercial'> No comercial<br/>
+                    <input type='checkbox' name='trabajo' value='trabajo'> No hay trabajos derivados<br/>
+                    <input type='checkbox' name='compartir' value='compartir'> Compartir por igual<br/>
+                    <br/>Fecha de toma: <br/><input type="date" name="" id=""> <br>
+                    
+                    <br/>Hora de toma:<br/><input type="time"> <br />
+                  </div>
+                </div> 
+    <form> 
+    <input type="submit" value="Enviar"><input type="submit" value="Limpiar">
+    </form>
+        </fieldset>
+    </form>
+</body>
+</html>
+    
