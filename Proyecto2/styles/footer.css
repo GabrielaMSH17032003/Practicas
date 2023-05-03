@@ -1,0 +1,84 @@
+.redes_sociales {
+    width: 16px;
+    height: 16px;
+    fill-rule: evenodd;
+    fill: white;
+}
+
+.ul_footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+ul,
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.a_footer {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    padding: 8px 16px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.ligas {
+    user-select: none;
+    box-sizing: border-box;
+    font-family: "FF Mark W05", Arial, sans-serif;
+    background: #292929;
+    padding: 24px;
+    margin: 0;
+    color: #7e7e7e;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .08em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.span_footer {
+    opacity: 0;
+    user-select: none;
+    color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    width: 0;
+    white-space: nowrap;
+}
+
+.logo {
+    fill: #737373;
+    height: 30px;
+}
+
+.copyright {
+    margin: 0 auto;
+    max-width: 640px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    word-break: keep-all;
+    color: #7e7e7e;
+}
+
+.adv {
+    width: 25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: 10000;
+}
+
+footer {
+    background-color: #111;
+    padding: 0px 0px 48px 0px;
+    border-top: 2px solid #343434;
+}
